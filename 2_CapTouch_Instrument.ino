@@ -1,6 +1,6 @@
 #include <Adafruit_CircuitPlayground.h>
 
-#define CAP_THRESHOLD   1000
+#define CAP_THRESHOLD   1016
 #define DEBOUNCE        100
 
 
