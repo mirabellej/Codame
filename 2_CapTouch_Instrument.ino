@@ -1,7 +1,7 @@
 #include <Adafruit_CircuitPlayground.h>
 
 #define CAP_THRESHOLD   1016
-#define DEBOUNCE        100
+#define DEBOUNCE        250
 
 
 uint8_t pads[] = {3, 2, 0, 1, 6, 9, 10}; // this lists all of the touch pads 
