@@ -21,6 +21,7 @@ void loop() {
     for (int i = 0; i < 10; i++) { // use a for loop to go from one pixel to the next
       CircuitPlayground.setPixelColor(i, 255,   0,   0); // and set the color for the that pixel in RGB
     }
+    //CircuitPlayground.playTone(900, 100);
   }
 
   // If it's medium light, turn the LEDs to green
@@ -29,6 +30,7 @@ void loop() {
     for (int i = 0; i < 10; i++) { // use a for loop to go from one pixel to the next
       CircuitPlayground.setPixelColor(i, 0,   255,   0); // and set the color for the that pixel in RGB
     }
+    // CircuitPlayground.playTone(500, 100);
   }
 
   // If it's low light, turn the LEDs to green
@@ -37,6 +39,7 @@ void loop() {
     for (int i = 0; i < 10; i++) { // use a for loop to go from one pixel to the next
       CircuitPlayground.setPixelColor(i, 0,   0,   255); // and set the color for the that pixel in RGB
     }
+    // CircuitPlayground.playTone(90, 100); 
   }
 
   delay(500); // delay of 1 second (1000 milliseconds) between readings
