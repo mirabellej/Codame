@@ -4,7 +4,7 @@ Files for Codame Interactive Art Workshops
 Instructions for Use:
 Click the big green CODE button and select "download as zip." This will download a zip file to your computer. Unzip the file. To run sketches, double click on the file. Arduino may ask you to relocate the sketch to another folder. Click "OK." This will open up the sketch in the Arduino IDE. Make sure you have the correct port and board selected for your Circuit Playground Express, then click the forward button to upload the sketch to the Circuit Playground Express. 
 
-Class 2: 9/3 PREREQUISITES 
+Class 2 PREREQUISITES 
 
 Download the Arduino IDE for your operating system
 
