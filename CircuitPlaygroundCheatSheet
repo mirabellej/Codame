@@ -1,0 +1,25 @@
+Here is a cheat sheet for some of the functions in the Adafruit Circuit Playground Library
+
+Inputs
+
+CircuitPlayground.lightSensor();
+CircuitPlayground.mic.soundPressureLevel(10);
+CircuitPlayground.temperature();
+CircuitPlayground.temperatureF();
+
+Outputs
+
+Speaker
+CircuitPlayground.playTone(500, 100);
+
+
+Neopixels
+
+Set Pixel Color for a specific pixel
+CircuitPlayground.setPixelColor(0, 255,   0,   0);
+
+Clear Pixels / Turn Them Off
+CircuitPlayground.clearPixels();
+
+Turn All the Pixels to a Color Using a For Loop
+  for (int i = 0; i < 10; i++){CircuitPlayground.setPixelColor(i, 128,   0,   128)}
